@@ -1,0 +1,2 @@
+Impossible de charger le fichier ou l'assembly 'MySqlConnector.dll'
+L'opération n'est pas prise en charge. (Exception de HRESULT : 0x80131515)

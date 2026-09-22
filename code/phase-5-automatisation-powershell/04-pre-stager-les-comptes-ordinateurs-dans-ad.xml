@@ -1,0 +1,3 @@
+Nom,OU
+PC-ETU-01,"OU=Etudiants,OU=Ordinateur de l'école,OU=Udem,DC=udem,DC=lan"
+PC-PROF-01,"OU=Profs,OU=Ordinateur de l'école,OU=Udem,DC=udem,DC=lan"

@@ -1,0 +1,1 @@
+Register-PackageSource : Source Location 'https://api.nuget.org/v3/index.json' is not valid.

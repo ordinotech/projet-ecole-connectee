@@ -1,0 +1,122 @@
+/* --- Réinitialisation et Base --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* --- Conteneur Principal --- */
+.container {
+    max-width: 550px;
+    background: #ffffff;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-top: 5px solid #0056b3; /* Rappel couleur académique */
+}
+
+/* --- Typographie --- */
+h2 {
+    text-align: center;
+    color: #111;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+/* --- Formulaire et Champs --- */
+.form-group {
+    margin-bottom: 22px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+}
+
+/* Centralisation du design des entrées et du menu déroulant ADDS */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 15px;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Style spécifique pour le champ d'upload */
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    background: #fafafa;
+    border: 1px dashed #bbb;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type="file"]:hover {
+    background: #f1f5f9;
+    border-color: #0056b3;
+}
+
+/* --- Effets de Focus (Ergonomie) --- */
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.15);
+    outline: none;
+}
+
+/* --- Bouton de Soumission --- */
+button {
+    width: 100%;
+    padding: 14px;
+    background: #0056b3;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: background 0.2s ease-in-out;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #004085;
+}
+
+/* --- Robustesse Responsive --- */
+@media (max-width: 480px) {
+    body {
+        padding: 20px 10px;
+    }
+    .container {
+        padding: 25px 20px;
+    }
+}

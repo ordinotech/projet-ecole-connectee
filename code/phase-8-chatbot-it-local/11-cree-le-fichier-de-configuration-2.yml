@@ -1,0 +1,38 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    security_opt:
+      - apparmor=unconfined
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "127.0.0.1:11434:11434"
+    environment:
+      - OLLAMA_NUM_PARALLEL=2
+      - OLLAMA_MAX_LOADED_MODELS=1
+      - OLLAMA_KEEP_ALIVE=5m
+    restart: unless-stopped
+
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    security_opt:
+      - apparmor=unconfined
+    depends_on:
+      - ollama
+    volumes:
+      - webui_data:/app/backend/data
+    ports:
+      - "127.0.0.1:3000:8080"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - WEBUI_NAME=Genie du Reseau UDEM
+      - DEFAULT_LOCALE=fr
+      - ENABLE_SIGNUP=false
+      - WEBUI_AUTH=true
+    restart: unless-stopped
+
+volumes:
+  ollama_data:
+  webui_data:

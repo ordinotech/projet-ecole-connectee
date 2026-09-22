@@ -1,0 +1,2 @@
+Une exception a été levée par l'initialiseur de type pour
+'MySqlConnector.Logging.MySqlConnectorLoggingConfiguration'

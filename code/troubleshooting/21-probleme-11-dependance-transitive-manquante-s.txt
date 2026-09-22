@@ -1,0 +1,4 @@
+System.IO.FileNotFoundException
+Impossible de charger le fichier ou l'assembly 'System.Numerics.Vectors,
+Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ou une
+de ses dépendances. Le fichier spécifié est introuvable.

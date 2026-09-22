@@ -1,0 +1,1 @@
+Impossible d'appeler une méthode dans une expression Null.

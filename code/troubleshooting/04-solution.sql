@@ -1,0 +1,3 @@
+GRANT ALL PRIVILEGES ON school_db.* TO 'web_app'@'10.0.1.2' IDENTIFIED BY 'Password01$';
+
+FLUSH PRIVILEGES;
