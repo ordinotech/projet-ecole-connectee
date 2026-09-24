@@ -21,24 +21,24 @@ vmbr0 (WAN) ──► OPNsense ──► vmbr1 (trunk VLAN-aware)
 
 | Phase | Contenu | Doc |
 | --- | --- | --- |
-| 1 | Proxmox & plan réseau — VLANs, vSwitchs, plan des VMs/CTs | [docs/phase-1-proxmox-reseau.md](docs/phase-1-proxmox-reseau.md) |
-| 2 | Windows Server / Active Directory — DC, OUs, groupes de sécurité | [docs/phase-2-windows-server-ad.md](docs/phase-2-windows-server-ad.md) |
-| 3 | Infrastructure réseau — Pi-hole, DHCP | [docs/phase-3-pihole-dhcp.md](docs/phase-3-pihole-dhcp.md) |
-| 4 | Site web d'inscription — PHP + MariaDB en architecture 2-tier, HTTPS via ADCS | [docs/phase-4-site-web-inscription.md](docs/phase-4-site-web-inscription.md) |
-| 5 | Automatisation PowerShell — synchronisation AD, pré-stage des postes | [docs/phase-5-automatisation-powershell.md](docs/phase-5-automatisation-powershell.md) |
+| 1 | Proxmox & plan réseau : VLANs, vSwitchs, plan des VMs/CTs | [docs/phase-1-proxmox-reseau.md](docs/phase-1-proxmox-reseau.md) |
+| 2 | Windows Server / Active Directory : DC, OUs, groupes de sécurité | [docs/phase-2-windows-server-ad.md](docs/phase-2-windows-server-ad.md) |
+| 3 | Infrastructure réseau : Pi-hole, DHCP | [docs/phase-3-pihole-dhcp.md](docs/phase-3-pihole-dhcp.md) |
+| 4 | Site web d'inscription : PHP + MariaDB en architecture 2-tier, HTTPS via ADCS | [docs/phase-4-site-web-inscription.md](docs/phase-4-site-web-inscription.md) |
+| 5 | Automatisation PowerShell : synchronisation AD, pré-stage des postes | [docs/phase-5-automatisation-powershell.md](docs/phase-5-automatisation-powershell.md) |
 | 6 | Serveur de fichiers SMB + audit sécurité *(à venir)* | [docs/phase-6-fichiers-smb-audit.md](docs/phase-6-fichiers-smb-audit.md) |
-| 7 | Hardening sécurité — comptes de service, NTLM, FGPP, Azure AD | [docs/phase-7-hardening-securite.md](docs/phase-7-hardening-securite.md) |
-| 8 | Chatbot IT local — LXC Docker, Ollama, Open WebUI, HTTPS | [docs/phase-8-chatbot-it-local.md](docs/phase-8-chatbot-it-local.md) |
+| 7 | Hardening sécurité : comptes de service, NTLM, FGPP, Azure AD | [docs/phase-7-hardening-securite.md](docs/phase-7-hardening-securite.md) |
+| 8 | Chatbot IT local : LXC Docker, Ollama, Open WebUI, HTTPS | [docs/phase-8-chatbot-it-local.md](docs/phase-8-chatbot-it-local.md) |
 | — | Problèmes rencontrés & solutions (troubleshooting complet) | [docs/troubleshooting.md](docs/troubleshooting.md) |
 
 ## Structure du repo
 
 ```
 .
-├── README.md              ← ce fichier
-├── docs/                   ← contenu détaillé de chaque phase
-├── images/                 ← toutes les captures, numérotées dans l'ordre du lab (001-...)
-└── code/                   ← scripts et configs complets, un dossier par phase
+├── README.md              : ce fichier
+├── docs/                   : contenu détaillé de chaque phase
+├── images/                 : toutes les captures, numérotées dans l'ordre du lab 
+└── code/                   : scripts et configs complets, un dossier par phase
     ├── phase-4-site-web-inscription/
     ├── phase-5-automatisation-powershell/
     ├── phase-8-chatbot-it-local/
