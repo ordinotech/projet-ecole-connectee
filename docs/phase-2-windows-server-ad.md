@@ -1,6 +1,6 @@
 [← Retour au README](../README.md)
 
-# **Phase 2 — Windows Server / Active Directory**
+# **Phase 2 : Windows Server / Active Directory**
 
 ## Installation du DC et configuration du domaine
 
@@ -36,5 +36,6 @@ udem.lan
 ![Structure des OU](../images/007-structure-des-ou.png)
 
 ## Les groupes Globaux de Sécurité
+Pour classer les utilisateurs plus tard et leurs assigner des permissions spécifiques selon leurs place dans l'hiérarchie
 
 ![Les groupes Globaux de Sécurité](../images/008-les-groupes-globaux-de-securite.png)
