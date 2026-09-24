@@ -29,7 +29,7 @@ vmbr0 (WAN) ──► OPNsense ──► vmbr1 (trunk VLAN-aware)
 | 6 | Serveur de fichiers SMB + audit sécurité *(à venir)* | [docs/phase-6-fichiers-smb-audit.md](docs/phase-6-fichiers-smb-audit.md) |
 | 7 | Hardening sécurité : comptes de service, NTLM, FGPP, Azure AD | [docs/phase-7-hardening-securite.md](docs/phase-7-hardening-securite.md) |
 | 8 | Chatbot IT local : LXC Docker, Ollama, Open WebUI, HTTPS | [docs/phase-8-chatbot-it-local.md](docs/phase-8-chatbot-it-local.md) |
-| — | Problèmes rencontrés & solutions (troubleshooting complet) | [docs/troubleshooting.md](docs/troubleshooting.md) |
+| - | Problèmes rencontrés & solutions (troubleshooting complet) | [docs/troubleshooting.md](docs/troubleshooting.md) |
 
 ## Structure du repo
 
