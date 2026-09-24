@@ -1,6 +1,6 @@
 [← Retour au README](../README.md)
 
-# **Phase 3 — Infrastructure réseau (PiHole + DHCP)**
+# **Phase 3 : Infrastructure réseau (PiHole + DHCP)**
 
 ## Déploiement du PiHole
 
@@ -15,6 +15,7 @@ S’assurer que l’IP de la machine est Statique
 ![Déploiement du PiHole](../images/012-deploiement-du-pihole-4.png)
 
 ![Déploiement du PiHole](../images/013-deploiement-du-pihole-5.png)
+Puis on texte depuis la machine Windows 
 
 ![Déploiement du PiHole](../images/014-deploiement-du-pihole-6.png)
 
