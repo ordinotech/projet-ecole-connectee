@@ -1,6 +1,6 @@
 [← Retour au README](../README.md)
 
-# **Phase 1 — Proxmox & Plan réseau**
+# **Phase 1 : Proxmox & Plan réseau**
 
 Création des VLANs (Étudiants / Serveurs / Profs), vSwitchs, et plan des VMs/CTs à créer.
 
